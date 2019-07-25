@@ -1,6 +1,6 @@
 ﻿namespace PDFConverter
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.btnDirSelect = new System.Windows.Forms.Button();
             this.txtSelectedDir = new System.Windows.Forms.TextBox();
             this.txtOutput = new System.Windows.Forms.TextBox();
@@ -169,7 +169,7 @@
             this.passwordProtectPDFToolStripMenuItem.Text = "Password Protect PDF";
             this.passwordProtectPDFToolStripMenuItem.Click += new System.EventHandler(this.passwordProtectPDFToolStripMenuItem_Click);
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -188,7 +188,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.Name = "Form1";
+            this.Name = "Main";
             this.Text = "XPS to PDF File Converter";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);

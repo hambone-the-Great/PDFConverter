@@ -14,14 +14,14 @@ namespace PDFConverter
 {
     public partial class progress : Form
     {
-        Form1 oform;
+        Main oform;
         public string TargetDir;
         string[] Files;
         public int fileCount;
         //public bool subDirs;
         public int pdfCount;
 
-        public progress(Form1 _form, string[] _files, string _target)
+        public progress(Main _form, string[] _files, string _target)
         {
             InitializeComponent();
             oform = _form;

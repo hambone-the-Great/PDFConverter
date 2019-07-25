@@ -7,13 +7,13 @@ using System.Collections.Generic;
 
 namespace PDFConverter
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
 
         public string TargetDir;
         PasswordProtect passwordProtector;
 
-        public Form1()
+        public Main()
         {
             InitializeComponent();
             this.AcceptButton = btnConvertFiles;
