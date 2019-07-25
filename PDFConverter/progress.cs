@@ -82,6 +82,7 @@ namespace PDFConverter
             }
 
             //MessageBox.Show("Done! " + files.Length + " files converted to PDF in " + TargetDir);         
+
         }
 
         private void backgroundWorker1_DoWork(object sender, DoWorkEventArgs e)
