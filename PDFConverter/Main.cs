@@ -11,7 +11,7 @@ namespace PDFConverter
     {
 
         public string TargetDir;
-        PasswordProtect passwordProtector;
+        //PasswordProtect passwordProtector;
 
         public Main()
         {
@@ -254,15 +254,15 @@ namespace PDFConverter
         private void passwordProtectPDFToolStripMenuItem_Click(object sender, EventArgs e)
         {
 
-            if (passwordProtector == null)
-            {
-                passwordProtector = new PasswordProtect();
-                passwordProtector.Show();
-            }
-            else
-            {
-                passwordProtector.BringToFront();
-            }
+            //if (passwordProtector == null)
+            //{
+            //    passwordProtector = new PasswordProtect();
+            //    passwordProtector.Show();
+            //}
+            //else
+            //{
+            //    passwordProtector.BringToFront();
+            //}
         }
     }
 }

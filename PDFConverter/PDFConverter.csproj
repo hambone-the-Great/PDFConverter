@@ -62,6 +62,9 @@
   <PropertyGroup>
     <ApplicationIcon>images\pdf-convert-icon.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup>
+    <NoWin32Manifest>true</NoWin32Manifest>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="PdfSharp-WPF, Version=1.31.4604.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
       <HintPath>..\packages\kenjiuno.PdfSharp-WPF.1.31.4604\lib\net40\PdfSharp-WPF.dll</HintPath>
