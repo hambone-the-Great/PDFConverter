@@ -251,18 +251,5 @@ namespace PDFConverter
             ClearAll();
         }
 
-        private void passwordProtectPDFToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-            //if (passwordProtector == null)
-            //{
-            //    passwordProtector = new PasswordProtect();
-            //    passwordProtector.Show();
-            //}
-            //else
-            //{
-            //    passwordProtector.BringToFront();
-            //}
-        }
     }
 }

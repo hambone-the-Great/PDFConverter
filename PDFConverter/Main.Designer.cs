@@ -40,7 +40,6 @@
             this.ckBxDeleteOrig = new System.Windows.Forms.CheckBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.passwordProtectPDFToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -156,18 +155,9 @@
             // 
             // optionsToolStripMenuItem
             // 
-            this.optionsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.passwordProtectPDFToolStripMenuItem});
             this.optionsToolStripMenuItem.Name = "optionsToolStripMenuItem";
             this.optionsToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.optionsToolStripMenuItem.Text = "Options";
-            // 
-            // passwordProtectPDFToolStripMenuItem
-            // 
-            this.passwordProtectPDFToolStripMenuItem.Name = "passwordProtectPDFToolStripMenuItem";
-            this.passwordProtectPDFToolStripMenuItem.Size = new System.Drawing.Size(189, 22);
-            this.passwordProtectPDFToolStripMenuItem.Text = "Password Protect PDF";
-            this.passwordProtectPDFToolStripMenuItem.Click += new System.EventHandler(this.passwordProtectPDFToolStripMenuItem_Click);
             // 
             // Main
             // 
@@ -211,7 +201,6 @@
         private System.Windows.Forms.CheckBox ckBxDeleteOrig;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem passwordProtectPDFToolStripMenuItem;
     }
 }
 
