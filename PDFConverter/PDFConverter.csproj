@@ -68,11 +68,11 @@
     <NoWin32Manifest>true</NoWin32Manifest>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PdfSharp-WPF, Version=1.31.4604.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\kenjiuno.PdfSharp-WPF.1.31.4604\lib\net40\PdfSharp-WPF.dll</HintPath>
+    <Reference Include="HiraokaHyperTools.PdfSharp-WPF, Version=1.31.6605.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\..\PDF-Master\packages\kenjiuno.PdfSharp-WPF.1.31.6605\lib\net40\HiraokaHyperTools.PdfSharp-WPF.dll</HintPath>
     </Reference>
-    <Reference Include="PdfSharp.Xps, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\kenjiuno.PdfSharp.Xps.1.0.0\lib\net40\PdfSharp.Xps.dll</HintPath>
+    <Reference Include="HiraokaHyperTools.PdfSharp.Xps, Version=1.1.12.0, Culture=neutral, PublicKeyToken=f94615aa0424f9eb, processorArchitecture=MSIL">
+      <HintPath>..\..\PDF-Master\packages\kenjiuno.PdfSharp.Xps.1.1.12\lib\net40\HiraokaHyperTools.PdfSharp.Xps.dll</HintPath>
     </Reference>
     <Reference Include="ReachFramework" />
     <Reference Include="System" />
@@ -150,6 +150,7 @@
   <ItemGroup>
     <Content Include="images\pdf-convert-icon.ico" />
     <Content Include="images\xps_pdf_tRy_icon.ico" />
+    <Content Include="PdfSharp.SharpZipLib\ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
